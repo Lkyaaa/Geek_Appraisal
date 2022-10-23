@@ -8,7 +8,7 @@ int main(void) {
 
 	printf("Please enter a primary value.(value of \"a\") \n");
 	scanf("%f",&a);
-	printf("xn,yn\n");
+	printf("          xn             yn\n");
 	do {
 		b=a;
 		printf("%15f%15f%",x0,a);
@@ -18,6 +18,7 @@ int main(void) {
 
 
 	} while(b-a>0.000001) ;
+	printf("%20f",a);
 
 
 	return 0;
