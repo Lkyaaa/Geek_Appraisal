@@ -18,7 +18,7 @@ int main(void) {
 
 
 	} while(b-a>0.000001) ;
-	printf("%20f",a);
+	printf("%30f",a);
 
 
 	return 0;
