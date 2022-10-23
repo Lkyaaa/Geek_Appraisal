@@ -1,26 +1,24 @@
 #include<stdio.h>
 int main(void) {
 	double x0=0;
-	float a;
+	float a,b;
 	float h=0.001;
-	int n=-1;
-	int k;
+	a=b;
 
-    
+
 	printf("Please enter a primary value.(value of \"a\") \n");
 	scanf("%f",&a);
-	printf("Please enter the number of points.\n");
-	scanf("%d",&k);
-	printf("n            xn             yn\n");
-	while(n++<k) {
-		printf("%-3d%15f%15f\n",n,x0,a);
+	printf("xn,yn\n");
+	do {
+		b=a;
+		printf("%15f%15f%",x0,a);
 		x0=x0+h;
 		a=(1-h)*a;
+		printf("%15f\n",b-a);
 
 
+	} while(b-a>0.000001) ;
 
-	}
-	
 
 	return 0;
 }
