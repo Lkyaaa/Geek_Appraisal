@@ -6,9 +6,9 @@ int main(void) {
 	a=b;
 
 
-	printf("Please enter a primary value.(value of \"a\") \n");
+	printf("Please enter a initial value.(value of \"a\") \n");
 	scanf("%f",&a);
-	printf("          xn             yn\n");
+	printf("          xn             yn          distance\n");
 	do {
 		b=a;
 		printf("%15f%15f%",x0,a);
