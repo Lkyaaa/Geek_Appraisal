@@ -4,7 +4,7 @@ int main(void) {
 	double x0=0;
 	float a,b;
 	float h=0.001;
-	a=b=M_PI;
+	a=b=M_E;
 
 	printf("          xn             yn          distance\n");
 	do {
