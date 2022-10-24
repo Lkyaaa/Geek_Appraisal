@@ -18,7 +18,7 @@ int main(void) {
 
 
 	} while(b-a>0.000001) ;
-	printf("%30f",a);
+	printf("The last value of y is %f",a);
 
 
 	return 0;
