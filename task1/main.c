@@ -1,13 +1,11 @@
 #include<stdio.h>
+#include<math.h>
 int main(void) {
 	double x0=0;
 	float a,b;
 	float h=0.001;
-	a=b;
+	a=b=M_PI;
 
-
-	printf("Please enter an initial value.(value of \"a\") \n");
-	scanf("%f",&a);
 	printf("          xn             yn          distance\n");
 	do {
 		b=a;
