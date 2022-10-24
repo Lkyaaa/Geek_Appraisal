@@ -6,7 +6,7 @@ int main(void) {
 	a=b;
 
 
-	printf("Please enter a initial value.(value of \"a\") \n");
+	printf("Please enter an initial value.(value of \"a\") \n");
 	scanf("%f",&a);
 	printf("          xn             yn          distance\n");
 	do {
